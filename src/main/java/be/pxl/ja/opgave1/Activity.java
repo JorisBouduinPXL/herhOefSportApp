@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import be.pxl.ja.opgave1.ActivityTracker;
 import be.pxl.ja.opgave1.ActivityType;
 
-public class Activity {
+public class Activity { ///////// added comment for testing
 	private String customerNumber;
 	private ActivityType activityType;
 	private double distance;
