@@ -6,7 +6,6 @@ import be.pxl.ja.opgave1.ActivityTracker;
 import be.pxl.ja.opgave1.ActivityType;
 
 public class Activity { ///////// added comment for testing
-	private String string;
 	private String customerNumber;
 	private ActivityType activityType;
 	private double distance;
