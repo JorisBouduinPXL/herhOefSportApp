@@ -17,17 +17,17 @@ public class CustomerRepository {
 
 	// TODO: voorzie hier de implementatie om een klant te zoeken adhv zijn klantnummer
 	public Customer getByCustomerNumber(String customerNumber) {
-		for (Customer customer : Customers.customers){
-			if (customer.getCustomerNumber().equals(customerNumber)){
-				return customer;
-			}
-		}
-		return null;
+		return customers.get(customerNumber);
+//		for (Customer customer : Customers.customers){
+//			if (customer.getCustomerNumber().equals(customerNumber)){
+//				return customer;
+//			}
+//		}
+//		return null;
 	}
 	
 	public List<Customer> findAll() {
-		List<Customer> customerList = new ArrayList<>(Customers.customers);
-		return customerList;
+		return new ArrayList<>(customers.values());
 		// TODO: voorzie hier de implementatie om een lijst me alle klanten te retourneren
 	}
 }
