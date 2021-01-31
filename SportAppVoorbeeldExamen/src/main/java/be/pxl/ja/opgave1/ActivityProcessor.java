@@ -23,7 +23,8 @@ public class ActivityProcessor {
 	
 	public List<Activity> processActivities(Path activityFile, Path errorFile) {
 		// TODO: implement this method
-		List<Activity> activities = new ArrayList<>();
+		List<Activity> activities = activityReader(activityFile);
+
 		return activities;
 	}
 

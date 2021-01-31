@@ -1,5 +1,7 @@
 package be.pxl.ja.opgave1;
 
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +11,11 @@ public class Opgave1 {
 		customerRepository.findAll();
 		System.out.println("*** Klanten uit Louisville:");
 		// TODO: 1
+		Path srcDir = Path.of(System.getProperty("user.dir"),"src");
+		Path activityFile = srcDir.resolve("main/resources/opgave1/activities_from_strava.txt");
+		Path errorFile = Paths.get("target/errorfile");
+		ActivityProcessor activityProcessor = new ActivityProcessor(customerRepository);
+		activityProcessor.processActivities(activityFile,errorFile);
 		
 		System.out.println("*** Jarige klanten: ");
 		// TODO: 2
