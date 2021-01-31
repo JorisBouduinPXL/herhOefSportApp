@@ -6,6 +6,7 @@ import java.util.List;
 public class Opgave1 {
 	public static void main(String[] args) {
 		CustomerRepository customerRepository = new CustomerRepository();
+		customerRepository.findAll();
 		System.out.println("*** Klanten uit Louisville:");
 		// TODO: 1
 		

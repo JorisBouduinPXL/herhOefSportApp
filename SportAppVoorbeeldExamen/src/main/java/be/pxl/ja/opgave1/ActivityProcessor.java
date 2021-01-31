@@ -14,7 +14,7 @@ public class ActivityProcessor {
 	
 	public List<Activity> processActivities(Path activityFile, Path errorFile) {
 		List<Activity> activities = new ArrayList<>();
-		activities.read
+//		activities.read
 		// TODO: implement this method
 		return null;
 	}

@@ -1,6 +1,6 @@
-package be.pxl.ja.opgave2;
-
-public class PassPhraseValidator {
-	
-
-}
+//package be.pxl.ja.opgave2;
+//
+//public class PassPhraseValidator {
+//
+//
+//}
