@@ -1,0 +1,17 @@
+2021-02-01T11:17:55.263416700 - activities_from_strava.txt - UNKOWN CUSTOMER: Chad Morse;05/01/2018;riding;150.6
+2021-02-01T11:17:55.264413700 - activities_from_strava.txt - Text '24122017' could not be parsed at index 2
+2021-02-01T11:17:55.265831700 - activities_from_strava.txt - UNKOWN CUSTOMER: Curtis Farley 20067666;11/01/2018;running;24.1
+2021-02-01T11:17:55.277162700 - endomondo_activities.txt - No enum constant be.pxl.ja.opgave1.ActivityType.TREADMILL
+2021-02-01T11:17:55.279157300 - endomondo_activities.txt - No enum constant be.pxl.ja.opgave1.ActivityType.TREADMILL
+2021-02-01T11:17:55.282420500 - endomondo_activities.txt - UNKOWN CUSTOMER: 20180101;20906825;running;25.7
+2021-02-01T11:17:55.283406900 - endomondo_activities.txt - Text '20171316' could not be parsed: Invalid value for MonthOfYear (valid values 1 - 12): 13
+2021-02-01T11:17:55.284422 - endomondo_activities.txt - Text '2017129' could not be parsed at index 6
+2021-02-01T11:17:55.295721800 - runkeeper_activities.txt - INVALID FILENAME
+2021-02-01T11:18:51.660480800 - activities_from_strava.txt - INVALLID FILENAME
+2021-02-01T11:18:51.666520100 - endomodo_activities.txt - INVALLID FILENAME
+2021-02-01T11:18:51.669457700 - runkeeper_activities.txt - INVALLID FILENAME
+2021-02-01T11:18:51.671656600 - strava_activities.txt - INVALLID FILENAME
+2021-02-01T11:21:04.889426200 - activities_from_strava.txt - INVALLID FILENAME
+2021-02-01T11:21:04.898213500 - endomodo_activities.txt - INVALLID FILENAME
+2021-02-01T11:21:04.898619600 - runkeeper_activities.txt - INVALLID FILENAME
+2021-02-01T11:21:04.899401900 - strava_activities.txt - INVALLID FILENAME

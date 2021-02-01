@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SportAppVoorbeeldExamen" />
+        <module name="herhSportApp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="herhSportApp" target="13" />
       <module name="SportAppVoorbeeldExamen" target="13" />
     </bytecodeTargetLevel>
   </component>
